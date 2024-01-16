@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 1280px;
+}
+
+@import "./components/nav";
+@import "./components/header\ button";
+@import "./components/latestwork";
+@import "./components/testimonial";

@@ -1,0 +1,72 @@
+.testimonial-card {
+  width: 300px;
+  height: 280px;
+  box-shadow: 0px 5px 11px 8px rgba(52, 67, 79, 0.42) inset;
+  padding: 42px 42px;
+
+  &:hover {
+    background-color: rgb(80, 74, 74);
+  }
+  .reviews-text {
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.reviews-text {
+  color: black;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.client-stars {
+  display: flex;
+}
+
+.stars-company {
+  margin-left: 10px;
+}
+
+.client-name {
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.client-compnany {
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.reviews-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.client {
+  margin-top: 58px;
+}
+
+.stars-company {
+  margin-top: 58px;
+}
+
+.card-stars:hover {
+  background-color: orange;
+}

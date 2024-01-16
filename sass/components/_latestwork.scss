@@ -1,0 +1,41 @@
+li {
+  list-style-type: none;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-title {
+  color: black;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-text {
+  color: black;
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cards-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  &:hover {
+    box-shadow: 0px 5px 14px 23px rgba(52, 67, 79, 0.42);
+    scale: 1.1;
+  }
+}

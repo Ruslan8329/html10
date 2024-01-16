@@ -1,0 +1,180 @@
+body {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1280px;
+}
+
+.nav-logo {
+  color: black;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 42px;
+}
+
+.nav-link {
+  color: black;
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 24px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.nav-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.nav-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.header-btn {
+  padding: 24px 64px;
+  color: white;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.header-btn:hover {
+  color: blue;
+}
+
+.header-section {
+  margin-top: 300px;
+  margin-left: 42px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-title {
+  color: black;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-text {
+  color: black;
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cards-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 5px 14px 23px rgba(52, 67, 79, 0.42);
+          box-shadow: 0px 5px 14px 23px rgba(52, 67, 79, 0.42);
+  scale: 1.1;
+}
+
+.testimonial-card {
+  width: 300px;
+  height: 280px;
+  -webkit-box-shadow: 0px 5px 11px 8px rgba(52, 67, 79, 0.42) inset;
+          box-shadow: 0px 5px 11px 8px rgba(52, 67, 79, 0.42) inset;
+  padding: 42px 42px;
+}
+.testimonial-card:hover {
+  background-color: rgb(80, 74, 74);
+}
+.testimonial-card .reviews-text:hover {
+  color: white;
+}
+
+.reviews-text {
+  color: black;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.client-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stars-company {
+  margin-left: 10px;
+}
+
+.client-name {
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.client-name:hover {
+  color: white;
+}
+
+.client-compnany {
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+.client-compnany:hover {
+  color: white;
+}
+
+.reviews-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+}
+
+.client {
+  margin-top: 58px;
+}
+
+.stars-company {
+  margin-top: 58px;
+}
+
+.card-stars:hover {
+  background-color: orange;
+}

@@ -1,0 +1,20 @@
+.header-btn {
+  padding: 24px 64px;
+  color: white;
+
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  transition: all 0.5s linear;
+
+  &:hover {
+    color: blue;
+  }
+}
+
+.header-section {
+  margin-top: 300px;
+  margin-left: 42px;
+}

@@ -1,0 +1,31 @@
+.nav-logo {
+  color: black;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 42px;
+}
+
+.nav-link {
+  color: black;
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 24px;
+  transition: all 0.3s linear;
+
+  &:hover {
+    color: red;
+    text-decoration: underline;
+  }
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
